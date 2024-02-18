@@ -4,17 +4,17 @@
 
 build image
 
-	> docker build . -t bkslanding-web:latest --target runner
+	❯ docker build . -t bkslanding-web:latest --target runner
 
 run container
 
-	> docker run -d --name myappbkslandingweb -p 80:12002 bkslanding-web:latest
+	❯ docker run -d --name myappbkslandingweb -p 80:12002 bkslanding-web:latest
 	
-	> docker exec -it myappbkslandingweb /bin/sh
+	❯ docker exec -it myappbkslandingweb /bin/sh
   
 command untuk clear all containers dan all images 
 
-	> docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+	❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
 
 
 Open Browser
