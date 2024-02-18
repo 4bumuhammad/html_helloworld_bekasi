@@ -14,7 +14,7 @@ run container
   
 command untuk clear all containers dan all images 
 
-	> `docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)`
+	> docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
 
 
 Open Browser
