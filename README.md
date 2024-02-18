@@ -15,7 +15,7 @@
 
 
 ### Open Browser
-  URL http://localhost:80
+	URL http://localhost:80
 
 
 
